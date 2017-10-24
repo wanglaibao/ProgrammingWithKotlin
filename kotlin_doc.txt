@@ -1,0 +1,113 @@
+httpwww.jianshu.compf82b6a1f70fb
+
+http://www.jianshu.com/p/519918d6d0a2
+
+http://www.jianshu.com/p/0a51a9bec5de
+
+https://huanglizhuo.gitbooks.io/kotlin-in-chinese/content/ClassesAndObjects/Classes-and-Inheritance.html
+
+https://kotlinlang.org/docs/reference/collections.html
+https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/
+https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/
+https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html
+https://github.com/KotlinBy/awesome-kotlin/tree/master/src
+
+
+
+
+
+
+
+
+
+
+
+
+
+首页卡片优化
+	
+	展示顺序: 公积金——社保——理财——贷款
+
+-- select * from atm_crawler_task_data where raw_data like '%XXXX%' order by created_time desc limit 10;
+
+select * from atm_wjf_account where customer_name = 'XXXX'
+
+
+wjfUserId : 32102, accountId: 300084
+
+
+公积金：
+	1：公积金余额 
+	2：更新日期
+	gjjAccount:{
+				userName: "周杰伦",    //姓名
+				balance: 1000.08,      //公积金余额
+				amount: 502.00,		   //公积金月缴
+				recordDate:"",		   //最近一次缴存日期
+				searched:true          //是否查询过公积金
+	}
+	
+医保社保
+    1：医保余额
+	2：缴纳状态
+	socialSecurityAccount: {
+			medicareBalance:123.89,    			//医保账户余额
+			insuredStatus:"正常缴纳",			//缴纳状态
+			name:"周杰伦",						//账户名称
+			insuredLatestDate:"2017-08-09"		//最近缴纳时间
+	}
+	
+理财:
+	1:理财总金额
+	2:理财昨日收益
+	financeInterest: {
+			financeNewUser:  true,   		//是否理财新用户
+			incomeYesterday：120.05,		//理财昨日收益
+			totalAsset: 12000.09,           //理财总金额
+			incomeTotal: 123.90             //总收益
+	}
+
+ 
+
+贷款:
+	1:贷款产品名称
+	2:下期应还
+	3:还款日
+	4:申请日期
+	
+		loanHasPlans:[
+				{
+					loanOrderCode:"12313131313",     //订单编号
+					productName:"闪电金贷",          //贷款产品名称
+					repayAmount:1131.89,			 //还款金额
+					repayDate:"2017-08-89"           //还款日期
+				}
+		]
+ 
+		loanHasNoPlan:[
+				{
+					loanOrderCode:"12313131313",     //订单编号
+					productName:"闪电金贷",          //贷款产品名称
+					applyDate:"2017-08-89"           //申请日期
+				}
+		]
+ 
+ 
+
+select * from atm_wjf_user where uuid = '30125a55f0324280a3773c856a6c0b79';
+
+select * from atm_user_account_relation where wjf_user_id = 109315;
+
+select * from user_tag where wjf_user_id = 109315;
+
+
+
+
+		
+Tomcat maven gradle
+		
+		
+
+
+
+
