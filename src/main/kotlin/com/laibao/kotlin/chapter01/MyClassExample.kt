@@ -33,9 +33,7 @@ class Derived1 : Base1() {};
 
 open class Base2(param:Int){};
 
-class Derived2 : Base2(42) {};
-
-
+class Derived2(param:Int) : Base2(param) {};
 
 
 open class Base3(param:Int){};
