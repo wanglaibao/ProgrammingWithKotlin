@@ -15,5 +15,6 @@ public class MyDataJavaTest {
         data.setGrade(1000);
         System.out.println(data.getGrade());
 
+        KotlinNutritionFacts2 kotlinNutritionFacts2 = new KotlinNutritionFacts2(0,100,12,34,345,345);
     }
 }
