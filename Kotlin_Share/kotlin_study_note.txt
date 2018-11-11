@@ -1,0 +1,310 @@
+一：有关HelloKotlin.kt的备注和说明 【talk about helloKotlin.kt】
+d:
+cd D:\IdeaProjects\git\ProgrammingWithKotlin\src\main\kotlin\com\laibao\kotlin\chapter01
+ls
+
+1: to create a .kt file
+HelloKotlin.kt
+
+2: to compile
+kotlinc HelloKotlin.kt -include-runtime -d HelloWorld.jar
+
+3: to run
+java -jar HelloWorld.jar
+
+
+***************************
+to think something about it
+to think something about it
+to think something about it
+***************************
+【kotlin runtime,kotlin runtime,kotlin runtime】
+【kotlin runtime,kotlin runtime,kotlin runtime】
+【kotlin runtime,kotlin runtime,kotlin runtime】
+4: why we need -include-runtime in the runtime
+         kotlinc HelloKotlin.kt -d HelloWorld.jar
+
+         java -jar HelloWorld.jar
+
+         【to see what happens】
+
+5: something about HelloKotlin.kt compiler time
+
+             kotlinc HelloKotlin.kt
+
+             javap -p com.laibao.kotlin.chapter01.HelloKotlinkt
+
+二:  对于val,var关键词的理解       【to understand val and var key words】
+    Talk is cheap. Show me the code
+    Talk is cheap. Show me the code
+    Talk is cheap. Show me the code
+	
+	
+	
+
+三: 对Java的互操作性的实践  
+       【interchange with java class】
+	   
+	   
+	   
+https://github.com/Kotlin/kotlin-koans	      
+https://github.com/shigebeyond/kotlin-jkmvc
+https://github.com/ACEMerlin/Kratos	   
+	   
+https://docs.spring.io/spring/docs/5.0.x/spring-framework-reference/   
+https://docs.spring.io/spring/docs/current/spring-framework-reference/overview.html#spring-introduction
+https://docs.spring.io/spring/docs/5.0.x/spring-framework-reference/languages.html#kotlin
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+https://github.com/sdeleuze【springboot-kotlin-demo】
+https://github.com/sdeleuze/spring-kotlin-functional/tree/master/src/main/kotlin/functional
+https://github.com/spring-petclinic/spring-petclinic-kotlin/tree/master/src/main/resources
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+https://segmentfault.com/a/1190000008751787
+http://www.jianshu.com/p/bfeb80c858e0
+	   
+	   
+https://github.com/exercism/kotlin	   
+https://github.com/JetBrains/kotlin-examples/tree/master/tutorials/spring-boot-restful
+
+http://mzorro.me/2015/09/21/config-scala-in-maven/
+https://www.iteblog.com/archives/1370.html
+http://www.cnblogs.com/duanxz/p/3628377.html
+https://docs.scala-lang.org/tutorials/scala-with-maven.html
+https://mvnrepository.com/artifact/org.scala-lang/scala-library
+	   
+https://www.zhihu.com/question/19914528
+http://www.cnblogs.com/zhoudayang/p/5027307.html
+	   
+	   
+	   
+https://github.com/SeunAdelekan/Kanary
+https://github.com/TinyMission/kara
+http://karaframework.com/
+https://github.com/pardom/redux-kotlin/blob/master/lib/src/main/kotlin/redux/Middleware.kt
+https://github.com/kimar/Ktor-Middleware
+https://github.com/pardom/redux-kotlin
+	   
+	   
+	   
+http://www.kotlintpoint.com/category/kotlin/[Kotlin 简单教程]
+	   
+	   
+https://github.com/spring-petclinic/spring-framework-petclinic/tree/javaconfig
+https://github.com/spring-projects/spring-petclinic
+
+https://github.com/habuma/SpringInActionExamples
+https://github.com/habuma?tab=repositories
+https://github.com/apache/activemq-apollo
+	   
+	   
+
+http://www.sinatrarb.com/
+https://javalin.io/tutorials/simple-kotlin-example
+https://github.com/tipsy/javalin-kotlin-example
+https://javalin.io/
+	   
+	   
+http://blog.csdn.net/u011486491/article/details/54089937
+http://www.jianshu.com/p/c436fd5debe1
+http://blog.csdn.net/farmer_cc/article/details/75588119
+https://coyee.com/article/12353-concurrency-java-futures-and-kotlin-coroutines
+http://blog.csdn.net/Sherlbon/article/details/72769843
+	   
+http://www.mapdb.org/
+https://github.com/jankotek/mapdb/
+http://blog.csdn.net/cnhome/article/details/75467000
+https://github.com/dodyg/Kotlin101/tree/master/src/Objects
+https://github.com/PacktPublishing/Programming-Kotlin/tree/master/Chapter03/inheritance/src/main/kotlin/com/programming/kotlin/chapter03
+https://github.com/kotlinz/kotlinz
+http://www.demojameson.com/2017/05/29/a-whirlwind-tour-of-the-kotlin-type-hierarchy/
+http://www.baeldung.com/kotlin
+http://www.baeldung.com/category/kotlin/
+http://www.jianshu.com/p/cb3dd97562ad
+https://coyee.com/
+https://zhuanlan.zhihu.com/p/27285806
+https://zhuanlan.zhihu.com/p/27182384
+https://zhuanlan.zhihu.com/p/23330386?refer=qingjingjie
+http://blog.csdn.net/shurenyun/article/details/78292882?locationNum=10&fps=1
+http://www.jianshu.com/c/3f476518d832
+https://docs.corda.net/
+https://www.corda.net/zh-hant/2017/01/kotlin/
+https://superkotlin.com/resources-learn-kotlin/
+https://blog.frankel.ch/scala-vs-kotlin/2/#gsc.tab=0
+https://agilewombat.com/2016/02/01/scala-vs-kotlin/
+	   
+https://36kr.com/p/5099959.html
+https://www.gitbook.com/book/chinleo/spring-security-architecture-in-zh/details
+https://github.com/spring-guides/top-spring-security-architecture
+https://docs.spring.io/spring-security/site/docs/5.0.x/reference/pdf/spring-security-reference.pdf
+https://github.com/spring-projects/spring-security
+https://github.com/pzxwhc/MineKnowContainer/issues/59
+http://ryanjbaxter.com/2015/01/06/securing-rest-apis-with-spring-boot/
+https://github.com/pzxwhc/MineKnowContainer/issues/58
+	   
+	   
+https://blog.dreamtobe.cn/2016/11/30/kotlin/
+https://blog.dreamtobe.cn/2016/03/09/oo_architecture/
+https://blog.jetbrains.com/kotlin/2017/10/kotlin-census-2017/
+http://geek.csdn.net/news/detail/242459
+https://github.com/heroku/12factor
+https://pivotal.io/cloud-native
+https://github.com/rootsongjc/migrating-to-cloud-native-application-architectures
+https://www.cncf.io/blog/2017/05/15/developing-cloud-native-applications/
+https://download3.vmware.com/vmworld/2015/downloads/oreilly-cloud-native-archx.pdf
+https://github.com/lexburner/oauth2-demo/blob/master/pom.xml
+	   
+
+http://fsh.fangjia.com/auth?token=加密接口（企业编号_用户编号_过期时间)
+
+encrypt
+
+/api/recommend/adverts/{advertType}
+
+{
+	advertType		"活动类型"		
+	icon			"活动小图标"		
+	title			"标题"		
+	description		"活动描述"			
+	url	  		    "待链接的url地址"						
+	advertStatus	"活动状态 validate or invalidate"	
+}
+
+
+[
+	{
+		name: 	"缴存详情",
+		icon:   "http://s1.wacdn.com/wis/473/6208202009e58bff_210x120.png",
+		url: 	"/api/housingfund/funddetails/{accountId}/{uuid}"
+	}，
+	{
+		name: 	"房贷明细",
+		icon:   "http://s1.wacdn.com/wis/473/ee00b898cf5deb39_210x120.png",
+		url: 	"/api/housingfund/mortgage/{accountId}" 
+	}
+	{
+		name: 	"房价估值",
+		icon:   "http://s1.wacdn.com/wis/473/06eb766f35088f6b_210x120.png",
+		url: 	"http://fsh.fangjia.com/auth?token=12123" 
+	}
+	{
+		name: 	"查社保",
+		icon:	"http://s1.wacdn.com/wis/473/c062a6d2516dceac_210x120.png",
+		url: 	https://m.shebaoonline.com/lnf/ 
+	}
+]
+
+
+400 Bad Request
+401 Unauthorized
+403 Forbidden
+404 Not Found
+405 Method Not Allowed
+406 Not Acceptable
+408 Request Timeout
+500 Internal Server Error
+502 Bad Gateway
+503 Service Unavailable
+504 Gateway Timeout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
