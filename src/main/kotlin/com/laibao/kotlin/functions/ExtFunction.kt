@@ -1,5 +1,8 @@
 package com.laibao.kotlin.functions
 
+import com.laibao.kotlin.oppinkotlin.Submarine
+import java.util.*
+
 /**
  * @author laibao wang
  */
@@ -16,4 +19,18 @@ fun <E> List<E>.drop(k:Int):List<E> {
             return newList
         }
     }
+}
+
+
+fun Submarine.fire(): Unit {
+    println("Fire on board!")
+}
+
+fun Submarine.submerge(depth: Int): Unit {
+    println("Submerging to a depth of $depth fathoms")
+}
+
+fun Int.Companion.random(): Int {
+    val random = Random()
+    return random.nextInt()
 }
