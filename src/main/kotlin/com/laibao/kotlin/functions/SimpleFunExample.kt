@@ -48,4 +48,14 @@ fun printAreaTwo(width: Int, height: Int): Unit {
     println("The area is $area")
 }
 
+fun parseInt(str : String?) : Int? {
+//    try {
+//        return Integer.parseInt(str)
+//    }
+//    catch (e : NumberFormatException) {
+//        return null
+//    }
+
+    return str?.toInt()
+}
 
