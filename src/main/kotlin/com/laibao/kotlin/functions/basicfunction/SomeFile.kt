@@ -61,6 +61,10 @@ fun main() {
     println()
     println()
     printValue("str", prefix = "Value is ", suffix = "!! ") // Prints: Value is str!!
+
+    printValue("str", inBracket= true, prefix = "Value is ") // Prints: Value is (str)
+
+    printValue("str", prefix = "Value is ", inBracket= true) // Prints: Value is (str)
 }
 
 fun double(i: Int): Int {
