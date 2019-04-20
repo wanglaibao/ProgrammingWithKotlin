@@ -31,4 +31,20 @@ fun main() {
 
     var c: (String)->Unit = { s: String -> println(s) }
     c.invoke("金戈")
+
+
+    /**
+     * Lambda expressions can be multiline
+     * the result of Lambda expressions is the last line
+     */
+    val printAndReturn = {
+        i: Int, j: Int -> println("I calculate $i + $j")
+        i + j // 1
+    }
+
+
+    /**
+     * Multiple statements can also be defined in a single line when they are separated by semicolons
+     */
+    val printAndReturn2 = {i: Int, j: Int -> println("I calculate $i + $j");i + j }
 }
