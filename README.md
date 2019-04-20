@@ -4,8 +4,6 @@
 
 [awesome-microservices] (https://github.com/mfornos/awesome-microservices)
 
-[下载地址] (https://github.com/JetBrains/kotlin/releases)
-
 [Lagom, a New Microservices Framework] (https://www.lightbend.com/company/news/lagom-a-new-microservices-framework)
 
 [Reactive Microservices in Java Using the Lagom Framework] (https://spr.com/reactive-microservices-using-lagom/)
@@ -22,8 +20,8 @@
 
 
 
-
-
+[Non-blocking Algorithms] (http://tutorials.jenkov.com/java-concurrency/non-blocking-algorithms.html)
+[Kotlin - The Good, the Bad and the Ugly] (https://dev.to/martinhaeusler/kotlin---the-good-the-bad-and-the-ugly-3jfo)
 
 
 
