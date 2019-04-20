@@ -1,5 +1,18 @@
 package com.laibao.kotlin.functions.basicfunction
 
+import com.sun.org.apache.bcel.internal.generic.NEW
+
+class User{
+    var id:Int = 0
+}
+
+class Student {
+    var state:State = State.NEW
+}
+
+enum class State {
+    NEW
+}
 
 fun main() {
     println("Hello, World!")
@@ -149,10 +162,38 @@ fun printValue(value: String,
 
 
 
+fun loadUsers(ids: List<Int>) {
+    var downloaded: List<User> = emptyList()
 
+    fun printLog(comment: String) {
+        println("loadUsers (with ids $ids): $comment\nDownloaded: $downloaded") // 1
+    }
 
+    for(id in ids) {
+        printLog("Start downloading for id $id")
+        downloaded += loadUser(id)
+        printLog("Finished downloading for id $id")
+    }
+}
 
+fun loadUser(id:Int):User {
+    val user = User()
+    user.id = id
+    return user
+}
 
+fun makeStudentList(): List<Student> {
+    var students: List<Student> = emptyList()
+    fun addStudent(name: String, state: State = State.NEW) {
+        students += Student()
+    }
+
+    // ...
+    addStudent("Adam Smith")
+    addStudent("Donald Duck")
+    // ...
+    return students
+}
 
 
 
