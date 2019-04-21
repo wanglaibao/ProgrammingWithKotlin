@@ -22,8 +22,8 @@
 
 [Non-blocking Algorithms] (http://tutorials.jenkov.com/java-concurrency/non-blocking-algorithms.html)
 [Kotlin - The Good, the Bad and the Ugly] (https://dev.to/martinhaeusler/kotlin---the-good-the-bad-and-the-ugly-3jfo)
-
-
+[mythz/kotlin-linq-examples] (https://github.com/mythz/kotlin-linq-examples)
+[Learning Kotlin: Collections] (https://dzone.com/articles/learning-kotlin-collections)
 
 
 
