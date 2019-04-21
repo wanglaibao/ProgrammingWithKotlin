@@ -37,7 +37,12 @@ private fun fold(
     return acc
 }
 
-
+fun longOperation(vararg observers: ()->Unit) {
+    for(observer in observers) {
+        //observer()
+        observer.invoke()
+    }
+}
 
 
 
