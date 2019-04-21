@@ -2,6 +2,18 @@ package com.laibao.kotlin.functions.extensionfunction
 
 import java.lang.RuntimeException
 
+fun main() {
+    val user = User()
+    user.logError(RuntimeException(),message = "金戈")
+
+
+    A().foo() // Prints: foo from A
+
+    B().foo() // Prints: foo from B
+
+    C.foo()
+}
+
 class User
 
 
@@ -27,15 +39,7 @@ fun A.foo() {
 
 
 
-fun main() {
-    val user = User()
-    user.logError(RuntimeException(),message = "金戈")
 
-
-    A().foo() // Prints: foo from A
-
-    B().foo() // Prints: foo from B
-}
 
 fun Any?.logError(error: Throwable, message: String = "error") {
 
@@ -44,3 +48,10 @@ fun Any?.logError(error: Throwable, message: String = "error") {
     println("$name  $message  $error")
 }
 
+class C {
+    companion object {}
+}
+
+fun C.Companion.foo() {
+    println("我是金戈我扩展了伴生对象")
+}
